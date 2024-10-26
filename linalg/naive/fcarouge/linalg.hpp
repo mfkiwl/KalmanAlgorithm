@@ -216,6 +216,7 @@ inline constexpr matrix<Type, Row, Column> zero_v<matrix<Type, Row, Column>>{};
 
 template <typename Type, auto Row, auto Column>
 [[nodiscard]] inline constexpr bool
+// Shouldn't the row/column be inverted in one of the mtrix?
 operator==(const matrix<Type, Row, Column> &lhs,
            const matrix<Type, Row, Column> &rhs) {
   for (decltype(Row) i{0}; i < Row; ++i) {

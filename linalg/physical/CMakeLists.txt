@@ -36,7 +36,10 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org> ]]
 
-add_subdirectory("eigen")
-add_subdirectory("mp_units")
-add_subdirectory("naive")
-add_subdirectory("physical")
+add_library(kalman_physical_linalg_mp_units_eigen INTERFACE)
+target_sources(
+  kalman_physical_linalg_mp_units_eigen
+  INTERFACE FILE_SET "unit_headers" TYPE "HEADERS" FILES
+            "fcarouge/physical_linalg.hpp")
+target_link_libraries(kalman_physical_linalg_mp_units_eigen
+                      INTERFACE kalman kalman_unit_mp_units kalman_linalg_eigen)

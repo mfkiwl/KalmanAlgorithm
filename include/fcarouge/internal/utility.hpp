@@ -239,6 +239,9 @@ template <typename Pack> using repack_t = repack<Pack>::type;
 
 template <typename Pack> inline constexpr auto size{repack<Pack>::size};
 
+template <typename Pack>
+using size_t = std::remove_const_t<decltype(size<Pack>)>;
+
 template <typename Type, typename... Types> struct first_type {
   using type = Type;
 };
@@ -272,18 +275,12 @@ template <typename Type> struct not_implemented {
   static_assert(none, "This type is not implemented. See message.");
 };
 
-inline constexpr auto adl_transpose{
-    [](const auto &value) { return transpose(value); }};
-
 struct transposer final {
-  template <arithmetic Arithmetic>
-  [[nodiscard]] inline constexpr auto
-  operator()(const Arithmetic &value) const {
+  template <typename Type>
+  [[nodiscard]] inline constexpr auto operator()(const Type &value) const {
     return value;
   }
 
-  //! @todo Remove and always rely on ADL and require implementation in linear
-  //! algebra support?
   template <typename Matrix>
     requires requires(Matrix value) { value.transpose(); }
   [[nodiscard]] inline constexpr auto operator()(const Matrix &value) const {
@@ -291,8 +288,9 @@ struct transposer final {
   }
 
   template <typename Matrix>
+    requires requires(Matrix value) { transpose(value); }
   [[nodiscard]] inline constexpr auto operator()(const Matrix &value) const {
-    return adl_transpose(value);
+    return transpose(value);
   }
 };
 
@@ -301,11 +299,12 @@ struct matrix_deducer final {
   [[nodiscard]] inline constexpr auto
   operator()(Lhs lhs, Rhs rhs) const -> decltype(lhs * transposer{}(rhs));
 
-  template <eigen Lhs, arithmetic Rhs>
+  template <eigen Lhs, typename Rhs>
   [[nodiscard]] inline constexpr auto operator()(Lhs lhs, Rhs rhs) const ->
       typename decltype(lhs * transposer{}(rhs))::PlainMatrix;
 
   template <typename Lhs, eigen Rhs>
+    requires(not eigen<Lhs>)
   [[nodiscard]] inline constexpr auto operator()(Lhs lhs, Rhs rhs) const ->
       typename decltype(lhs * transposer{}(rhs))::PlainMatrix;
 };

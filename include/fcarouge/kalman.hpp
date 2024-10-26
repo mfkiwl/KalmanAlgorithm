@@ -141,6 +141,7 @@ private:
   //! @details The internal implementation, filtering strategies, and presence
   //! of members vary based on the constructed, configured, declared, deduced
   //! filter.
+  // Remove me?
   using implementation = Filter;
   //! @}
 

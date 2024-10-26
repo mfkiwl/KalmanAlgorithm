@@ -36,50 +36,26 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org> */
 
-#ifndef FCAROUGE_INTERNAL_X_Z_HPP
-#define FCAROUGE_INTERNAL_X_Z_HPP
+#ifndef FCAROUGE_UNIT_HPP
+#define FCAROUGE_UNIT_HPP
 
-#include "fcarouge/utility.hpp"
+#include <mp-units/framework/quantity.h>
+#include <mp-units/math.h>
+#include <mp-units/systems/si.h>
 
-namespace fcarouge::internal {
-template <typename State, typename Output> struct x_z_p_r_f {
-  using state = State;
-  using output = Output;
-  using estimate_uncertainty = deduce_matrix<state, state>;
-  using output_uncertainty = deduce_matrix<output, output>;
-  using state_transition = deduce_matrix<state, state>;
-  using innovation = output;
-  using innovation_uncertainty = output_uncertainty;
+namespace fcarouge {
+//! @brief The physical unit quantity.
+template <auto Reference, typename Representation>
+using quantity = mp_units::quantity<Reference, Representation>;
 
-  state x{zero_v<state>};
-  estimate_uncertainty p{identity_v<estimate_uncertainty>};
-  output_uncertainty r{zero_v<output_uncertainty>};
-  state_transition f{identity_v<state_transition>};
-  innovation y{zero_v<innovation>};
-  innovation_uncertainty s{identity_v<innovation_uncertainty>};
-  output z{zero_v<output>};
-  transposer t{};
+template <mp_units::Quantity Type>
+inline constexpr auto identity_v<Type>{Type::one()};
+} // namespace fcarouge
 
-  using gain = std::remove_cvref_t<decltype(p / s)>;
+using mp_units::si::metre;
+using mp_units::si::second;
+using mp_units::si::unit_symbols::m;
+using mp_units::si::unit_symbols::s;
+using mp_units::si::unit_symbols::s2;
 
-  gain k{identity_v<gain>};
-
-  static inline const auto i{identity_v<gain>};
-
-  inline constexpr void update(const output &output_z) {
-    z = output_z;
-    s = p + r;
-    k = p / s;
-    y = z - x;
-    x = x + k * y;
-    p = (i - k) * p * t(i - k) + k * r * t(k);
-  }
-
-  inline constexpr void predict() {
-    x = f * x;
-    p = f * p * t(f);
-  }
-};
-} // namespace fcarouge::internal
-
-#endif // FCAROUGE_INTERNAL_X_Z_HPP
+#endif // FCAROUGE_UNIT_HPP
