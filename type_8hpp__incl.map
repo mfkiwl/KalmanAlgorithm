@@ -1,16 +1,18 @@
-<map id="/github/workspace/include/fcarouge/internal/type.hpp" name="/github/workspace/include/fcarouge/internal/type.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="129,5,302,46"/>
-<area shape="rect" id="Node000002" href="$utility_8hpp.xhtml" title="The collection of utilities supporting the library." alt="" coords="5,94,135,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,49,107,89,104,84,178,44"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="132,241,213,267"/>
-<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="212,47,201,95,179,226,174,225,195,93,207,46"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="210,94,306,120"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="228,45,246,79,242,81,224,48"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="330,94,381,120"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="252,44,322,84,319,88,249,49"/>
-<area shape="rect" id="Node000003" href="$internal_2utility_8hpp.xhtml" title=" " alt="" coords="11,168,132,193"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,120,73,152,68,152,68,120"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="34,241,109,267"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,194,74,226,69,226,69,194"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="90,192,144,230,141,234,87,196"/>
+<map id="/github/workspace/include/fcarouge/kalman_internal/type.hpp" name="/github/workspace/include/fcarouge/kalman_internal/type.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="270,5,442,61"/>
+<area shape="rect" id="Node000002" href="$utility_8hpp.xhtml" title=" " alt="" coords="217,109,292,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="326,63,282,101,278,97,323,59"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="342,183,423,208"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="363,61,381,167,375,168,358,62"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="394,109,489,135"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="384,59,420,96,417,100,380,63"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,183,80,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,138,94,180,92,175,218,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,183,168,208"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="236,137,170,177,168,172,233,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="192,183,242,208"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="251,136,233,170,228,168,246,134"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="278,133,349,172,346,177,275,138"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="266,183,318,208"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="263,134,281,168,276,170,258,136"/>
 </map>

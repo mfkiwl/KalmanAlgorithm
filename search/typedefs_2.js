@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['deduce_5ffilter_0',['deduce_filter',['../namespacefcarouge_1_1internal.xhtml#af0c315e1078601955b31e5c902650361',1,'fcarouge::internal']]],
-  ['deduce_5fmatrix_1',['deduce_matrix',['../namespacefcarouge_1_1internal.xhtml#a2aa71ba2069d17fb0dd4c73490bf3e63',1,'fcarouge::internal::deduce_matrix'],['../namespacefcarouge.xhtml#a3fc114a8d3c5a39e7929ea2a06f0536d',1,'fcarouge::deduce_matrix']]]
+  ['deduce_5ffilter_0',['deduce_filter',['../namespacefcarouge_1_1kalman__internal.xhtml#a083c7633e41b94b1c0cf980cd4a51d74',1,'fcarouge::kalman_internal']]],
+  ['difference_1',['difference',['../namespacefcarouge_1_1kalman__internal.xhtml#aaf401bd223c24f1406587dd5fd2dc2cf',1,'fcarouge::kalman_internal']]]
 ];

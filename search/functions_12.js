@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x_0',['x',['../classfcarouge_1_1kalman.xhtml#a6833f2b35051ed9d7583c9f1580cb468',1,'fcarouge::kalman::x(this auto &amp;&amp;self)'],['../classfcarouge_1_1kalman.xhtml#ad71db64c384ae44f762968e1260b5288',1,'fcarouge::kalman::x(const auto &amp;value, const auto &amp;...values)'],['../classfcarouge_1_1decorator_1_1printer.xhtml#a66f00d872f92be404b748651e6fe24cd',1,'fcarouge::decorator::printer::x()']]]
+  ['_7ekalman_0',['~kalman',['../classfcarouge_1_1kalman.xhtml#aefb20ca92a3ba1b0d82ea7d3edf54fe4',1,'fcarouge::kalman']]],
+  ['_7eprinter_1',['~printer',['../classfcarouge_1_1decorator_1_1printer.xhtml#a2b85d01463eef9876553245f0be6550c',1,'fcarouge::decorator::printer']]]
 ];

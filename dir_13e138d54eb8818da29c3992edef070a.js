@@ -31,15 +31,18 @@ var dir_13e138d54eb8818da29c3992edef070a =
     [ "linalg_constructor_nx1.cpp", "linalg__constructor__nx1_8cpp.xhtml", "linalg__constructor__nx1_8cpp" ],
     [ "linalg_constructor_nx1_array.cpp", "linalg__constructor__nx1__array_8cpp.xhtml", "linalg__constructor__nx1__array_8cpp" ],
     [ "linalg_copy.cpp", "linalg__copy_8cpp.xhtml", "linalg__copy_8cpp" ],
+    [ "linalg_format_1xn.cpp", "linalg__format__1xn_8cpp.xhtml", "linalg__format__1xn_8cpp" ],
+    [ "linalg_format_mx1.cpp", "linalg__format__mx1_8cpp.xhtml", "linalg__format__mx1_8cpp" ],
+    [ "linalg_format_mxn.cpp", "linalg__format__mxn_8cpp.xhtml", "linalg__format__mxn_8cpp" ],
     [ "linalg_identity.cpp", "linalg__identity_8cpp.xhtml", "linalg__identity_8cpp" ],
-    [ "linalg_identity_default.cpp", "linalg__identity__default_8cpp.xhtml", "linalg__identity__default_8cpp" ],
     [ "linalg_multiplication_arithmetic.cpp", "linalg__multiplication__arithmetic_8cpp.xhtml", "linalg__multiplication__arithmetic_8cpp" ],
     [ "linalg_multiplication_rxc.cpp", "linalg__multiplication__rxc_8cpp.xhtml", "linalg__multiplication__rxc_8cpp" ],
     [ "linalg_multiplication_sxc.cpp", "linalg__multiplication__sxc_8cpp.xhtml", "linalg__multiplication__sxc_8cpp" ],
     [ "linalg_operator_bracket.cpp", "linalg__operator__bracket_8cpp.xhtml", "linalg__operator__bracket_8cpp" ],
     [ "linalg_operator_equality.cpp", "linalg__operator__equality_8cpp.xhtml", "linalg__operator__equality_8cpp" ],
     [ "linalg_zero.cpp", "linalg__zero_8cpp.xhtml", "linalg__zero_8cpp" ],
-    [ "linalg_zero_default.cpp", "linalg__zero__default_8cpp.xhtml", "linalg__zero__default_8cpp" ],
     [ "printer_1x1x0.cpp", "printer__1x1x0_8cpp.xhtml", "printer__1x1x0_8cpp" ],
-    [ "printer_2x3x4.cpp", "printer__2x3x4_8cpp.xhtml", "printer__2x3x4_8cpp" ]
+    [ "printer_2x3x4.cpp", "printer__2x3x4_8cpp.xhtml", "printer__2x3x4_8cpp" ],
+    [ "utility_identity_default.cpp", "utility__identity__default_8cpp.xhtml", "utility__identity__default_8cpp" ],
+    [ "utility_zero_default.cpp", "utility__zero__default_8cpp.xhtml", "utility__zero__default_8cpp" ]
 ];

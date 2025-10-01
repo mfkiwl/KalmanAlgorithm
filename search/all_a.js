@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['g_0',['g',['../classfcarouge_1_1kalman.xhtml#a432c41f9b06ed9b51f84f7a72c06bde3',1,'fcarouge::kalman::g(this auto &amp;&amp;self)'],['../classfcarouge_1_1kalman.xhtml#ad0d25d20732129d098fb3471bfad1e4f',1,'fcarouge::kalman::g(const auto &amp;value, const auto &amp;...values)']]],
-  ['gain_1',['gain',['../classfcarouge_1_1kalman.xhtml#a6aba742c4afa51ea37b6b28ad2828e30',1,'fcarouge::kalman']]],
-  ['generator_2',['generator',['../structfcarouge_1_1matrix.xhtml#aef4e1a401c270d709c1ebaf0a3ea4a91',1,'fcarouge::matrix']]],
-  ['genie_3',['genie',['../structfcarouge_1_1matrix.xhtml#a345b32af8d533e28e162b7757e23d2ec',1,'fcarouge::matrix']]]
+  ['h_0',['h',['../classfcarouge_1_1kalman.xhtml#a310f3a507cbd4285a6565003d7f1aba9',1,'fcarouge::kalman::h(this auto &amp;&amp;self)'],['../classfcarouge_1_1kalman.xhtml#a4ce15519a6eee3ae6c379979b918263e',1,'fcarouge::kalman::h(const auto &amp;value, const auto &amp;...values)']]]
 ];
