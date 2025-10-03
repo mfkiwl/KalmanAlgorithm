@@ -44,10 +44,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/benchmark_8hpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/predict__1x1x0_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/predict__1x1x1_8cpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/predict__1x1x1_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/predict__1x1x0_8cpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/predict__linalg__x1x_8cpp_source.xhtml</loc>
@@ -101,10 +101,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/x__z__p__r_8hpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/x__z__u__p__q__r_8hpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/x__z__p__r__f_8hpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/x__z__p__r__f_8hpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/x__z__u__p__q__r_8hpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/x__z__u__p__q__r__f__g__ps_8hpp_source.xhtml</loc>
@@ -227,10 +227,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__1xn__array_8cpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__nx1_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__initializer__lists_8cpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__initializer__lists_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__nx1_8cpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/linalg__constructor__nx1__array_8cpp_source.xhtml</loc>
@@ -239,10 +239,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/linalg__copy_8cpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/linalg__format__1xn_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/linalg__format__mx1_8cpp_source.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/linalg__format__mx1_8cpp_source.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/linalg__format__1xn_8cpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/linalg__format__mxn_8cpp_source.xhtml</loc>
@@ -257,13 +257,13 @@
     <loc>https://francoiscarouge.github.io/Kalman/linalg__multiplication__rxc_8cpp_source.xhtml</loc>
   </url>
   <url>
+    <loc>https://francoiscarouge.github.io/Kalman/linalg__multiplication__sxc_8cpp_source.xhtml</loc>
+  </url>
+  <url>
     <loc>https://francoiscarouge.github.io/Kalman/linalg__operator__bracket_8cpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/linalg__operator__equality_8cpp_source.xhtml</loc>
-  </url>
-  <url>
-    <loc>https://francoiscarouge.github.io/Kalman/linalg__multiplication__sxc_8cpp_source.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/linalg__zero_8cpp_source.xhtml</loc>
@@ -284,13 +284,13 @@
     <loc>https://francoiscarouge.github.io/Kalman/benchmark_2_c_make_lists_8txt.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/_c_make_lists_8txt.xhtml</loc>
-  </url>
-  <url>
     <loc>https://francoiscarouge.github.io/Kalman/baseline_8cpp.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/cmake_2_c_make_lists_8txt.xhtml</loc>
+  </url>
+  <url>
+    <loc>https://francoiscarouge.github.io/Kalman/_c_make_lists_8txt.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/include_2_c_make_lists_8txt.xhtml</loc>
@@ -485,10 +485,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/kalman__format__5x4x3_8cpp.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/kalman__format__float__1x1x1_8cpp.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/kalman__format__arguments_8cpp.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/kalman__format__arguments_8cpp.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/kalman__format__float__1x1x1_8cpp.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/kalman__h__5x4x3_8cpp.xhtml</loc>
@@ -596,10 +596,10 @@
     <loc>https://francoiscarouge.github.io/Kalman/namespacefcarouge.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/classfcarouge_1_1kalman.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/structfcarouge_1_1printer__decorator.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/Kalman/structfcarouge_1_1printer__decorator.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/Kalman/classfcarouge_1_1kalman.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/Kalman/classfcarouge_1_1kalman-members.xhtml</loc>
